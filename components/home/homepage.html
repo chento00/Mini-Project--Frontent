@@ -14,76 +14,110 @@
 </head>
 
 <body>
-    <header class="container-fluid header-main">
-        <div class="container header custom-item-center">
-            <div class="logo">I<span>STAD</span></div>
-            <div class="menu">
-                <ul class="">
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Category</a></li>
-                    <li><a href="">Brand</a></li>
-                    <li><a href="">About us</a></li>
-                </ul>
+    <header class="position-sticky top-0 bg-whi ">
+        <div class="container-fluid ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 d-flex fs-2 f-md-4 fw-bold   justify-content-start align-items-start pl-3">I <span class="txt-stad">STAD</span></div>
+                    <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10 col-10 ">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                            <div class="container-fluid d-flex justify-content-end">
+                                <button class="navbar-toggler custom-primary-color " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav  w-100 d-flex justify-content-center align-items-center fs-6 px-5">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link" href="#">Products</a>
+                                    <a class="nav-link" href="#">Category</a>
+                                    <a class="nav-link" href="#">Brand</a>
+                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 d-none d-lg-flex  justify-content-evenly align-items-center fs-6">
+                        Login
+                        <button type="button" class="btn btn-primary custom-primary-color" >Register</button>
+                    </div>
+                </div>
             </div>
-            <div class="auth">
-                <a href="">Login</a>
-                <button>Register</button>
-            </div>
+            
         </div>
     </header>
-    <main>
-        <section class="slider">
-            <div class="left-text">
-                <h1>
-                    I<span>STAD</span> Is the Best Place <span>To Buy Everything</span>.
-                </h1>
-                <span class="txt-des">At ISTAD you can buy what your favorite brand and beauty clothes , shoes and more at ISTAD .</span>
-                <button class="btn-shop-now">Shopping Now</button>
+    <main class="my-5">
+        <section >
+            <div id="carouselExampleDark" class="carousel  slide">
+                <!-- circle button -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active btn-circle btn-lg " aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class="btn-circle btn-lg" ></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"class="btn-circle btn-lg" ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-block p-5 h-100">
+                                <h1 class="txt-logo-stad fw-bold">
+                                    I<span class="txt-stad">STAD</span> Is the Best Place <span class="txt-stad">To Buy Everything</span>.
+                                </h1>
+                                <div class="des-txt text-muted my-4">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                </div>
+                                <button type="button" class="btn btn-primary fw-bold custom-primary-color my-3 p-3 object-fit">Shopping Now</button>
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-12 p-5  rounded-3 overflow-hidden">
+                                <img class="img-fluid custom-primary-color border-success rounded" src="../../assets/images/slide1.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active m-sm-5" data-bs-interval="10000">
+                </div>
+                <!-- button next and back -->
+                <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </section>
+        <section class="my-5">
+            <h2 class="text-center m-4">
+                Category of The Store 
+            </h2>
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 .items-cate-1 ">
+                                <div class="card" >
+                                    <div class="card-body text-center position-relative">
+                                        <img class="object-fit-fill" src="../../assets/images/adidas1.webp" alt="">
+                                        <div class="txt-box position-absolute top-0 py-3 text-start">
+                                            <h4>Fashions</h4>
+                                            <span class="text-muted">1,000 items</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 bg-secondary">
+                        2
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 bg-success">
+                        3
+                    </div>
+                </div>
             </div>
-            <div class="right-panel custome-item-center">
-                <img src="../../assets/images/slide1.avif" alt="">
-            </div>
-
         </section>
     </main>
-    <footer>
-        <div class="left-logo">
-            <h4>I<span>STAD</span></h4>
-            <div class="des-txt">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-            </div>
-        </div>
-        <div class="right-list">
-            <div class="items item-1">
-                <h4>For beginners
-                    <ul>
-                        <li>About</li>
-                        <li>Career</li>
-                        <li>Promotion</li>
-                    </ul>
-                </h4>
-            </div>
-            <div class="items item-1">
-                <h4>Explore Us
-                    <ul>
-                        <li>Our Career </li>
-                        <li>Privacy</li>
-                        <li>Terms & Conditions</li>
-                    </ul>
-                </h4>
-            </div>
-            <div class="items item-1">
-                <h4>For beginners
-                    <ul>
-                        <li>istad@gmail.com</li>
-                        <li>012-888-222</li>
-                        <li>Touk Kok</li>
-                    </ul>
-                </h4>
-            </div>
-        </div>
-    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
