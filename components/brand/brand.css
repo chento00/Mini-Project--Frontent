@@ -143,3 +143,97 @@ footer .right-list .items h4 ul li {
     line-height: 28px;
     font-weight: normal;
 }
+.Text{
+    margin: 200px 0px 100px 0px;
+}
+.Text p{
+    font-size: 32px;
+    text-align: center;
+}
+.box1{
+    background-image: url(../../assets/images/photo_1.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box2{
+    background-image: url(../../assets/images/adidas.png);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box3{
+    background-image: url(../../assets/images/photo_3.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box4{
+    background-image: url(../../assets/images/photo_4.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box5{
+    background-image: url(../../assets/images/photo_5.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box6{
+    background-image: url(../../assets/images/photo_6.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box7{
+    background-image: url(../../assets/images/photo_7.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box8{
+    background-image: url(../../assets/images/photo_8.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.box9{
+    background-image: url(../../assets/images/photo_9.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #3C9379;
+    width:286px ;
+    height: 233px;
+}
+.row{
+     padding: 50px;
+}
+main{
+    margin: 0px 0px 250px 0px;
+}
