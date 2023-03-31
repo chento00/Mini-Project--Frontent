@@ -1,0 +1,46 @@
+.custom-primary-color{
+    background-color:#3C9379;
+    border:1px solid #3C9379;
+}
+.txt-stad{
+    color: #3C9379;
+}
+header{
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.669);
+}
+.carousel {
+    height: 400px; /* set the height of the carousel */
+}
+.carousel-inner {
+    height: 100%; /* set the height of the inner carousel to 100% to fill the parent container */
+}
+.btn-circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.btn-circle.btn-lg {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+.btn-circle.active{
+    background-color: #3C9379;
+}
+main{
+    margin: 200px ;
+}
+.Text{
+    font-size: 24px;
+    line-height: 60px;
+}
+h1{
+    margin: 100px 0px 50px 0px;
+}
+img{
+    border: 3px solid #3C9379;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
